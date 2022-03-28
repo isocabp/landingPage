@@ -1,0 +1,102 @@
+body {
+  background-color: #f1dfa8;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #662c25;
+  transition: 0.3s all;
+}
+
+#contato-btn {
+  border: 2px solid #662c25;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#contato-btn:hover {
+  background-color: #662c25;
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family: "Monteserrat", sans-serif;
+}
+
+span {
+  color: #662c25;
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+}
+
+img {
+  width: 580px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#submit-btn {
+  height: 50px;
+  width: 50%;
+  background-color: #662c25;
+  color: black;
+  font-weight: bold;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
